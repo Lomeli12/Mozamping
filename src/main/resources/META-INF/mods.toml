@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/Lomeli12/Mozamping/issues"
+
+[[mods]]
+modId="mozamping"
+version="${file.jarVersion}"
+displayName="Mozamping"
+#updateJSONURL="http://myurl.me/"
+displayURL="https://lomeli12.net/"
+#logoFile="examplemod.png"
+credits="Lomeli"
+authors="Lomeli"
+description='''
+Mozamping here! Level ${file.jarVersion}!
+'''
+[[dependencies.mozamping]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.mozamping]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
