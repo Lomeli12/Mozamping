@@ -6,6 +6,7 @@ import net.lomeli.mozamping.core.CommonProxy;
 import net.lomeli.mozamping.core.IProxy;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.fml.DistExecutor;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -13,6 +14,7 @@ import org.apache.commons.lang3.tuple.Pair;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+@Mod(Mozamping.MOD_ID)
 public class Mozamping {
     public static final String MOD_NAME = "Mozamping";
     public static final String MOD_ID = "mozamping";
